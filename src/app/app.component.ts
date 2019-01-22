@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Nome que eu quiser!';
+  luke = {name: 'Luke', isJedi:'true', temple:'Agua Fria Templo'};
+  leia = {name: 'Han', isJedi:'true', temple:'Casa Amarela Templo'};
+  han = {name: 'Leia', isJedi:'false'};
 }
