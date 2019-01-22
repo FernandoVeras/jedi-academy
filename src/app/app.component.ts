@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   luke = {name: 'Luke', isJedi:'true', temple:'Agua Fria Templo'};
-  leia = {name: 'Han', isJedi:'true', temple:'Casa Amarela Templo'};
+  leia = {name: 'Han', isJedi:'false'};
   han = {name: 'Leia', isJedi:'false'};
 }
