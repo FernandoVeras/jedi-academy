@@ -1,6 +1,9 @@
-<div>
-  Student: {{student.name}}
-  <div *ngIf="student.isJedi">
-    O templo supremo master plus do Jedi é: {{student.temple}}
+<div *ngIf="student">
+  Student: {{student?.name}}
+  <div *ngIf="student?.isJedi">
+    O templo supremo master plus do Jedi é: {{student?.temple}}
   </div>
 </div>
+<p *ngIf="!student">
+  Sem dados para exbir!
+</p>
